@@ -1,0 +1,68 @@
+.hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3.5rem;
+    margin-bottom: 3.5rem;
+}
+
+.gaming-logo--desktop {
+    display: none;
+}
+
+.hero__cta {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__cta--right {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.btn {
+    width: max-content;
+    padding: 1rem 2rem;
+    background-color: var(--clr-primary-red);
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+}
+
+.hero__aside {
+    background-color: var(--clr-very-dark-blue);
+    padding: 2rem;
+}
+
+.hero__aside-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero__aside-list .list-item {
+    border-bottom: 1px solid var(--clr-dark-grayish-blue);
+    padding-block: 2.5rem;
+}
+
+.hero__aside-list .list-item:last-child {
+    padding-bottom: 0;
+    border: 0;
+}
+
+.hero__aside .title-secondary {
+    color: var(--clr-primary-orange);
+}
+
+.hero__aside-list .link-title {
+    display: inline-block;
+    color: var(--clr-off-white);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.hero__aside-list .paragraph {
+    color: var(--clr-grayish-blue);
+}

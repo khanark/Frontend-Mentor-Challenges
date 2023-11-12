@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/images/favicon-32x32.png"
+        />
+
+        <title>Frontend Mentor | News homepage</title>
+
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <!-- header navidation -->
+            <header>
+                <!-- desktop navigation -->
+                <div class="header-nav">
+                    <div class="header-logo">
+                        <img src="./assets/images/logo.svg" alt="header logo" />
+                    </div>
+
+                    <nav>
+                        <ul class="desktop-nav">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">New</a></li>
+                            <li><a href="#">Popular</a></li>
+                            <li><a href="#">Trending</a></li>
+                            <li><a href="#">Categories</a></li>
+                        </ul>
+                    </nav>
+                    <button class="btn-nav">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </button>
+
+                    <div class="mobile-nav-wrapper">
+                        <ul class="mobile-nav">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">New</a></li>
+                            <li><a href="#">Popular</a></li>
+                            <li><a href="#">Trending</a></li>
+                            <li><a href="#">Categories</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+
+            <!-- hero section -->
+            <div class="hero">
+                <div class="hero__gaming-logo">
+                    <img
+                        class="gaming-logo--mobile"
+                        src="./assets/images/image-web-3-mobile.jpg"
+                        alt="Gaming"
+                    />
+                    <img
+                        class="gaming-logo--desktop"
+                        src="./assets/images/image-web-3-desktop.jpg"
+                        alt="Gaming"
+                    />
+                </div>
+                <div class="hero__cta">
+                    <h2 class="title-primary">The Bright Future of Web 3.0?</h2>
+                    <div class="hero__cta--right">
+                        <p class="paragraph">
+                            We dive into the next evolution of the web that
+                            claims to put the power of the platforms back into
+                            the hands of the people. But is it really fulfilling
+                            its promise?
+                        </p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+                <aside class="hero__aside">
+                    <h3 class="title-secondary">New</h3>
+                    <ul class="hero__aside-list">
+                        <li class="list-item">
+                            <a href="" class="link-title">
+                                Hydrogen VS Electric Cars
+                            </a>
+                            <p class="paragraph">
+                                Will hydrogen-fueled cars ever catch up to EVs?
+                            </p>
+                        </li>
+                        <li class="list-item">
+                            <a href="" class="link-title">
+                                The Downsides of AI Artistry
+                            </a>
+                            <p class="paragraph">
+                                What are the possible adverse effects of
+                                on-demand AI image generation?
+                            </p>
+                        </li>
+                        <li class="list-item">
+                            <a href="" class="link-title">
+                                Is VC Funding Drying Up?</a
+                            >
+                            <p class="paragraph">
+                                Private funding by VC firms is down 50% YOY. We
+                                take a look at what that means.
+                            </p>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+            <div class="posts">
+                <div class="post">
+                    <div class="post-image">
+                        <img
+                            src="./assets/images/image-retro-pcs.jpg"
+                            alt="retro pcs"
+                        />
+                    </div>
+                    <div class="post-content">
+                        <span class="post-content--number">01</span>
+                        <a href="#" class="post-content--link"
+                            >Reviving Retro PCs</a
+                        >
+                        <p class="paragraph">
+                            What happens when old PCs are given modern upgrades?
+                        </p>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post-image">
+                        <img
+                            src="./assets/images/image-top-laptops.jpg"
+                            alt="retro pcs"
+                        />
+                    </div>
+                    <div class="post-content">
+                        <span class="post-content--number">02</span>
+                        <a href="#" class="post-content--link">
+                            Top 10 Laptops of 2022</a
+                        >
+                        <p class="paragraph">
+                            Our best picks for various needs and budgets.
+                        </p>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post-image">
+                        <img
+                            src="./assets/images/image-gaming-growth.jpg"
+                            alt="retro pcs"
+                        />
+                    </div>
+                    <div class="post-content">
+                        <span class="post-content--number">03</span>
+                        <a href="#" class="post-content--link"
+                            >ReviThe Growth of Gaming</a
+                        >
+                        <p class="paragraph">
+                            How the pandemic has sparked fresh opportunities.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>

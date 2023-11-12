@@ -1,0 +1,22 @@
+.container {
+    max-width: 1440px;
+}
+
+/* GENERAL STYLES */
+.title-primary {
+    font-size: 2.6rem;
+    font-weight: 800;
+    color: var(--clr-very-dark-blue);
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+.title-secondary {
+    font-size: 1.5rem;
+}
+
+.paragraph {
+    color: var(--clr-dark-grayish-blue);
+    line-height: 1.5;
+    font-size: 14px;
+}

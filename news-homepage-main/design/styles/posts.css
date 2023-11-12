@@ -1,0 +1,45 @@
+.posts {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.posts .post {
+    display: flex;
+    align-items: center;
+}
+
+.post .post-image {
+    flex: 1 1 30%;
+}
+
+.post .post-content {
+    flex: 1 1 70%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-block: 8px;
+}
+
+.post-content--number {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--clr-grayish-blue);
+}
+
+.post-content--link {
+    display: block;
+    font-weight: 800;
+    font-size: 1rem;
+    color: var(--clr-very-dark-blue);
+}
+
+.mobile-nav-wrapper .mobile-nav li:hover,
+.hero__aside-list .link-title:hover,
+.post .post-content .post-content--link:hover {
+    color: var(--clr-primary-orange);
+}

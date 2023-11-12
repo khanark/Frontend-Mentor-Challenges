@@ -1,0 +1,7 @@
+@import "./design/styles/reset.css";
+@import "./design/styles/variables.css";
+@import "./design/styles/general.css";
+@import "./design/styles/navigation.css";
+@import "./design/styles/hero.css";
+@import "./design/styles/posts.css";
+@import "./design/styles/queries.css";

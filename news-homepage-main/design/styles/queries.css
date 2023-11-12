@@ -1,0 +1,94 @@
+@media screen and (min-width: 768px) {
+    nav .desktop-nav {
+        display: flex;
+    }
+
+    .paragraph {
+        font-size: 16px;
+    }
+
+    .btn-nav {
+        display: none;
+    }
+
+    .hero {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+            "img img aside"
+            "content content aside";
+        gap: 2.5rem;
+    }
+
+    .posts {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+    }
+
+    .hero__gaming-logo,
+    .hero__cta {
+        grid-column: span 7;
+    }
+
+    .hero__gaming-logo {
+        grid-area: img;
+    }
+
+    .hero__cta {
+        grid-area: content;
+    }
+
+    .gaming-logo--mobile {
+        display: none;
+    }
+
+    .gaming-logo--desktop {
+        display: block;
+    }
+
+    .hero__aside {
+        grid-area: aside;
+    }
+
+    .hero__aside .title-secondary {
+        font-size: 2rem;
+    }
+
+    .hero__cta {
+        flex-direction: row;
+        gap: 2.5rem;
+    }
+
+    .hero__cta .title-primary {
+        font-size: 4rem;
+        width: 50%;
+    }
+    .hero__cta .hero__cta--right {
+        gap: 2rem;
+        width: 50%;
+    }
+
+    .hero__cta .hero__cta--right .paragraph {
+        font-size: 1.2rem;
+    }
+
+    .hero__aside-list .list-item .link-title,
+    .post-content--link {
+        font-size: 1.2rem;
+    }
+
+    .hero__aside-list .list-item .paragraph {
+        font-size: 1.25rem;
+    }
+
+    .hero__aside-list .list-item {
+        padding-block: 2.5rem;
+    }
+
+    .post-content--number {
+        font-size: 2.5rem;
+    }
+
+    .post-content .paragraph {
+        font-size: 1.15rem;
+    }
+}
