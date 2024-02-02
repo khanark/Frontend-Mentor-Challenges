@@ -6,6 +6,9 @@ navBtn.addEventListener("click", (e) => {
     e.currentTarget.classList.toggle("close");
 });
 
+
+console.log(" This is a new line ")
+
 mobileNav.addEventListener("click", (e) => {
     const nav = e.target;
     if (
